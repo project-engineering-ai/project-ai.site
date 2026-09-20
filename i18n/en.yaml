@@ -1,0 +1,28 @@
+full-name: Name
+working-mail: Email
+anything-else: Message
+message-goes-here: Tell us about your task...
+john-doe: John Smith
+john-doe-email: john.smith@example.com
+submit: Send
+email: Email
+home: Home
+read_more: Read More
+send: Send
+related_posts: Related Posts
+categories: Categories
+tags: Tags
+toc: Table of Contents
+share: Share
+pagination: Page
+pagination-arrow: pagination
+previous: Previous
+theme-switcher: theme switcher
+menu-open: Menu Open
+menu-close: Menu Close
+search_input_placeholder: Search the site...
+search_no_results: Nothing found for this query
+search_initial_message: Enter your search query..
+search_navigate: to navigate
+search_select: to select
+search_close: to close

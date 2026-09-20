@@ -1,0 +1,35 @@
+################ Русский (корень сайта) ##################
+[ru]
+label = "Ru"
+locale = "ru-RU"
+contentDir = "content/russian"
+weight = 1
+title = "Project AI"
+languageName = "Русский"
+
+[ru.params]
+description = "Разработка и внедрение искусственного интеллекта в бизнес"
+copyright = "© Project AI — разработка и внедрение искусственного интеллекта в бизнес"
+
+[ru.params.navigation_button]
+enable = true
+label = "Связаться"
+link = "/contact/"
+
+################ English (под /en/) ######################
+[en]
+label = "En"
+locale = "en-us"
+contentDir = "content/english"
+weight = 2
+title = "Project AI"
+languageName = "English"
+
+[en.params]
+description = "AI development and implementation for business"
+copyright = "© Project AI — AI development and implementation for business"
+
+[en.params.navigation_button]
+enable = true
+label = "Contact us"
+link = "/en/contact/"

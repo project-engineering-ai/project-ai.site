@@ -1,0 +1,41 @@
+############# Русское меню ##############
+
+[[main]]
+name = "Главная"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Услуги"
+url = "/services/"
+weight = 2
+
+[[main]]
+name = "О компании"
+url = "/about/"
+weight = 3
+
+[[main]]
+name = "Контакты"
+url = "/contact/"
+weight = 4
+
+[[main]]
+name = "EN"
+url = "/en/"
+weight = 9
+
+[[footer]]
+name = "Услуги"
+url = "/services/"
+weight = 1
+
+[[footer]]
+name = "О компании"
+url = "/about/"
+weight = 2
+
+[[footer]]
+name = "Контакты"
+url = "/contact/"
+weight = 3

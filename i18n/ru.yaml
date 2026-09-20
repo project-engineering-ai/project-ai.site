@@ -1,0 +1,28 @@
+full-name: Имя
+working-mail: Email
+anything-else: Сообщение
+message-goes-here: Расскажите о вашей задаче...
+john-doe: Иван Иванов
+john-doe-email: ivan@example.com
+submit: Отправить
+email: Email
+home: Главная
+read_more: Читать далее
+send: Отправить
+related_posts: Похожие записи
+categories: Категории
+tags: Теги
+toc: Содержание
+share: Поделиться
+pagination: Страница
+pagination-arrow: пагинация
+previous: Предыдущая
+theme-switcher: переключатель темы
+menu-open: Открыть меню
+menu-close: Закрыть меню
+search_input_placeholder: Поиск по сайту...
+search_no_results: Ничего не найдено по запросу
+search_initial_message: Введите запрос для поиска..
+search_navigate: для навигации
+search_select: чтобы выбрать
+search_close: чтобы закрыть

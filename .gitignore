@@ -1,0 +1,17 @@
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.lock
+.sass-cache
+npm-debug.log
+node_modules
+builds
+public
+resources
+jsconfig.json
+go.sum
+yarn.lock
+.hugo_build.lock
+hugo_stats.json
+themes/hugoplate/assets/css/generated-theme.css

@@ -1,0 +1,20 @@
+{{/* Переопределение: вместо <select> — компактная ссылка EN / RU, как на прежней вёрстке.
+     href = парная страница другого языка (или главная этого языка, если перевода нет). */}}
+{{ if hugo.IsMultilingual }}
+  {{ $context := .Context }}
+  {{ $pageLang := $context.Lang }}
+  {{ $target := "" }}
+  {{ range site.Languages }}
+    {{ if ne .Lang $pageLang }}{{ $target = .Lang }}{{ end }}
+  {{ end }}
+  {{ $href := "" }}
+  {{ range $context.AllTranslations }}
+    {{ if eq .Language.Lang $target }}{{ $href = .Permalink }}{{ end }}
+  {{ end }}
+  {{ if not $href }}
+    {{ range site.Home.AllTranslations }}
+      {{ if eq .Language.Lang $target }}{{ $href = .Permalink }}{{ end }}
+    {{ end }}
+  {{ end }}
+  <a href="{{ $href }}" class="nav-link" title="{{ if eq $pageLang "ru" }}English version{{ else }}Русская версия{{ end }}">{{ if eq $pageLang "ru" }}EN{{ else }}RU{{ end }}</a>
+{{ end }}
