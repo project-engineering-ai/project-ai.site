@@ -16,5 +16,10 @@
       {{ if eq .Language.Lang $target }}{{ $href = .Permalink }}{{ end }}
     {{ end }}
   {{ end }}
-  <a href="{{ $href }}" class="nav-link" title="{{ if eq $pageLang "ru" }}English version{{ else }}Русская версия{{ end }}">{{ if eq $pageLang "ru" }}EN{{ else }}RU{{ end }}</a>
+  <a
+    href="{{ $href }}"
+    class="nav-link"
+    data-lang-switch="force"
+    data-lang-set="{{ $target }}"
+    title="{{ if eq $pageLang "ru" }}English version{{ else }}Русская версия{{ end }}">{{ if eq $pageLang "ru" }}EN{{ else }}RU{{ end }}</a>
 {{ end }}
